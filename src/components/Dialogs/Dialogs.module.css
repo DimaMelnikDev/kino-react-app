@@ -1,0 +1,50 @@
+.dialogsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+}
+
+.dialogs {
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    background: #12192b;
+    border-right: 5px solid #06101c;
+    backdrop-filter: blur(6px);
+}
+
+.dialogs h2 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 36px;
+    text-align: left;
+    font-family: Dosis;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dialogs li {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.dialogs li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #abb7c4;
+    text-decoration: none;
+}
+
+.dialogs li a:hover {
+    color: #dcf836;
+}
+
+.messageHistory {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-between;
+    overflow-x: clip;
+}

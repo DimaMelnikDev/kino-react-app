@@ -1,0 +1,8 @@
+GET https://social-network.samuraijs.com/api/1.0/users
+###
+GET https://social-network.samuraijs.com/api/1.0/profile/2
+###
+GET https://social-network.samuraijs.com/api/1.0/profile/status/2
+
+###
+PUT https://social-network.samuraijs.com/api/1.0/profile/status/ 

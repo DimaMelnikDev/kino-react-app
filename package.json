@@ -1,14 +1,21 @@
 {
-  "name": "kino-react-app",
+  "name": "social-network",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-form": "^8.3.8",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +41,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "author": "",
+  "license": "ISC"
 }

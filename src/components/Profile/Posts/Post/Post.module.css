@@ -1,0 +1,43 @@
+    .post {
+        display: grid;
+        grid-template-columns: 65px auto;
+        align-items: center;
+        margin: 15px 0px;
+        padding: 5px 0px;
+    }
+    
+    .post .defaultAvatar {
+        width: 50px;
+        border-radius: 50%;
+        margin-top: -19px;
+        filter: invert(90%) sepia(48%) saturate(2084%) hue-rotate(178deg) brightness(88%) contrast(74%);
+    }
+    
+    .post .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: -19px;
+    }
+    
+    .post h2 {
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+        color: #4280bf;
+        font-weight: 700;
+        text-transform: none;
+        margin-bottom: 5px;
+    }
+    
+    .post p {
+        font-family: Nunito;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #abb7c4;
+        margin: 0px 0 15px 0px;
+    }
+    
+    .bottomWrapper * {
+        margin-right: 10px;
+    }

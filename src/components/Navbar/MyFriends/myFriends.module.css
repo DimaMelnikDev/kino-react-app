@@ -1,0 +1,19 @@
+.wrapper {
+    margin-top: 40px;
+}
+
+.myFriendsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Nunito', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.myFriendsList span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 12px;
+}

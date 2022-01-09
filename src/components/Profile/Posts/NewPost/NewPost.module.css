@@ -1,0 +1,23 @@
+.newPost {
+    border-bottom: 2px solid #12182926;
+    padding-bottom: 33px;
+}
+
+.newPost textarea {
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(18, 24, 41);
+    margin: 10px 0px;
+    height: 40px;
+    color: #abb7c4;
+}
+
+.newPost textarea:focus-visible {
+    outline: 2px solid #4280bf;
+}
+
+.newPost textarea::-webkit-input-placeholder {
+    color: #abb7c4;
+}
