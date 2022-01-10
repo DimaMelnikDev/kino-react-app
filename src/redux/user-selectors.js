@@ -1,4 +1,4 @@
-import { createSelector } from 'reselect'
+// import { createSelector } from 'reselect'
 export const getUsers = state => state.usersPage.userList
 export const getPageSize = state => state.usersPage.pageSize
 export const getTotalUsersCount = state => state.usersPage.totalUsersCount
